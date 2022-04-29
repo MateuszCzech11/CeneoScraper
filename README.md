@@ -4,8 +4,8 @@
 |Składowa|Selektor|Nazwa zmiennej|Typ zmiennej|
 |--------|--------|--------------|------------|
 |opinia|div.js_product-review|opinion|bs4.element.Tag|
-|identyfikator opinii|div.js_product-review\["data-entry-id"\]|opinion_id||
-|autor opinii|span.user-post__author-name|author||
+|identyfikator opinii|div.js_product-review\["data-entry-id"\]|opinion_id|str|
+|autor opinii|span.user-post__author-name|author|str|
 |rekomendacja|span.user-post__author-recomendation > em|reommendation||
 |liczba gwiazdek|span.user-post__score-count|stars||
 |treść opinii|div.user-post__text|content||
