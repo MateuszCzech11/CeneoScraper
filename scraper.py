@@ -3,6 +3,11 @@ from typing import Type
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
+
+if not os.path.isdir("./opinions"):
+    os.mkdir("./opinions")
+
 
 def get_item(ancestor, selector, attribute = None, return_list = False):
     try:
